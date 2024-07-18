@@ -40,7 +40,7 @@ public class HomeServlet extends HttpServlet {
                 response.sendRedirect("viewer.jsp");
             }
         } else {
-            response.sendRedirect("login.jsp"); // Redirect to login if not logged in
+            response.sendRedirect("index.jsp"); // Redirect to login if not logged in
         }
     }
 }
