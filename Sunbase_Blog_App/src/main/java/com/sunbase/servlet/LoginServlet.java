@@ -43,7 +43,7 @@ public class LoginServlet extends HttpServlet {
             } else {
                 // Invalid password
                 request.setAttribute("errorMessage", "Invalid details. Please try again.");
-                request.getRequestDispatcher("login.jsp").forward(request, response);
+                request.getRequestDispatcher("index.jsp").forward(request, response);
             }
         } else {
             // User does not exist
